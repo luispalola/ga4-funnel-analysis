@@ -61,3 +61,12 @@ select
 from `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`
 where _table_suffix = '20201201'
 and event_name = 'purchase';
+
+-- q7. purchase check: duplicates and (not set) transaction ids
+select
+    count(*) as purchase_events,
+    count(distinct ecommerce.transaction_id) as unique_transaction_ids,
+    countif(ecommerce.transaction_id = '(not set)') as not_set_purchases,
+    sum(ecommerce.purchase_revenue_in_usd) as total_revenue
+from `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`
+where event_name = 'purchase';
