@@ -1,0 +1,4 @@
+device,sessions,reached_view,reached_cart,reached_checkout,purchases,revenue,view_rate,cart_rate,checkout_rate,purchase_rate,conversion_rate,revenue_per_session
+desktop,208942,44981,11756,6392,2299,178182.0,0.2153,0.2614,0.5437,0.3597,0.011,0.85
+mobile,143185,30628,8146,4474,1663,124160.0,0.2139,0.266,0.5492,0.3717,0.0116,0.87
+tablet,8002,1705,431,240,82,5298.0,0.2131,0.2528,0.5568,0.3417,0.0102,0.66
