@@ -1,5 +1,7 @@
 -- session base table: one row per session
 
+create or replace table `ga4-funnel-analysis-511719.ga4_analysis.session_base` as
+
 with events as (
     select
         user_pseudo_id,
