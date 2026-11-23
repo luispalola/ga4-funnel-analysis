@@ -1,0 +1,6 @@
+step,session_count,pct_of_previous,pct_of_all,pct_of_previous_full,pct_of_all_full
+sessions,299173,,1.0,,1.0
+reached_view,63280,0.2115,0.2115,0.2147,0.2147
+reached_cart,17784,0.281,0.0594,0.263,0.0565
+reached_checkout,9160,0.5151,0.0306,0.5462,0.0308
+reached_purchase,3968,0.4332,0.0133,0.3641,0.0112
