@@ -1,0 +1,19 @@
+channel,visitor_type,sessions,reached_checkout,purchases,revenue,conversion_rate,purchase_rate,revenue_per_session,small_sample
+affiliate,new,426,10,1,23.0,0.0023,0.1,0.05,True
+affiliate,returning,424,9,1,144.0,0.0024,0.1111,0.34,True
+direct,new,27767,668,113,7380.0,0.0041,0.1692,0.27,False
+direct,returning,5296,254,139,13602.0,0.0262,0.5472,2.57,False
+email,new,15,9,6,630.0,0.4,0.6667,42.0,True
+email,returning,72,19,13,951.0,0.1806,0.6842,13.21,True
+hidden,new,20873,494,70,5138.0,0.0034,0.1417,0.25,False
+hidden,returning,6669,366,194,13463.0,0.0291,0.5301,2.02,False
+organic search,new,66048,2379,732,48856.0,0.0111,0.3077,0.74,False
+organic search,returning,16982,1128,605,46115.0,0.0356,0.5363,2.72,False
+paid search,new,6308,121,29,2211.0,0.0046,0.2397,0.35,True
+paid search,returning,363,20,13,749.0,0.0358,0.65,2.06,True
+referral,new,13426,840,426,31481.0,0.0317,0.5071,2.34,False
+referral,returning,8556,760,458,34717.0,0.0535,0.6026,4.06,False
+self-referral,new,20863,327,99,6188.0,0.0047,0.3028,0.3,False
+self-referral,returning,25809,1751,1068,92368.0,0.0414,0.6099,3.58,False
+unknown,new,63323,1,1,12.0,0.0,1.0,0.0,True
+unknown,returning,15953,4,0,0.0,0.0,0.0,0.0,True
